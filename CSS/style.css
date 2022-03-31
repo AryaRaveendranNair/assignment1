@@ -8,22 +8,26 @@ body{
 
 } 
 .navbar {
-    margin-left: 9%;
-    height: 70px;
+    margin-left: 11.2%;
+    height: 72px;
+    width:100%;
     font-size: larger;
-    overflow: hidden;
-    position: fixed;
+    /* overflow: hidden;
+    position: fixed; */
     top: 0;
 }
 .navbar h4{
-    margin-left:-15%;
+    margin-left:-8%;
 }
-img{
+.logo img{
     margin-top: -104px;
-    margin-left: -13px;
+    margin-left: 0px;
     height: 75px;
+    width: 150px;
+} 
+
     
-}
+
 .navbar-brand{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
@@ -54,27 +58,31 @@ img{
   }
 .breadcrumb{
     margin-top: -24px;
+    height: 35px;
 }
  h5{
 color:black;
-text-indent: 15%;
+text-indent: 16%;
 background-color: transparent;
 padding: 10px;
-margin-top: -50px;
+margin-top: 80px;
 margin-left: 2%;
 margin-right: 2%;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: justify;
-line-height: 40px;
+line-height: 30px;
+
 }
-.introtext{
-    margin-top: -6%;
+.introtext h5{
+    margin-top: 1%;
 }
+
+
 footer a{
     display: flex;
     float: right;
     margin-right: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 .page-footer{
     height: 8px;

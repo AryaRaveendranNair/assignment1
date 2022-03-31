@@ -15,16 +15,16 @@ body{
     margin-left: 9%;
     height: 70px;
     font-size: larger;
-    overflow: hidden;
-    position: fixed;
+    /* overflow: hidden;
+    position: fixed; */
     top: 0;
 }
 .navbar h4{
-    margin-left:-15%;
+    margin-left:2%;
 }
 img{
-    margin-top: -104px;
-    margin-right: 900px;
+    margin-top: -7.5%;
+    margin-right: 600px;
     margin-left: -9px;
     height: 75px;
     
@@ -40,9 +40,10 @@ img{
     text-align: center;
     margin: 5px;
     margin-top: 13px;
+    margin-left: 10px;
 }
 .contactus{
-    margin-left: 80%;
+    margin-right: 15px;
     margin-top: 15px;
 }
 
@@ -62,12 +63,12 @@ img{
     display: flex;
     justify-content: center;
     align-items:center !important;
-    height: 100vh;
-    margin-top: -8%;
+    height: 88vh;
+    margin-top: 0%;
   }
   .form{
     width: 350px;
-    height: 450px;
+    height: 530px;
     background-color: rgba(41, 39, 39, 0.3);
     box-shadow: 0 5px 30px black;
   }

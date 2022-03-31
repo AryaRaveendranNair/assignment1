@@ -1,0 +1,84 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/* index.html */
+body{
+    background-size:cover;
+
+} 
+.navbar {
+    margin-left: 9%;
+    height: 70px;
+    font-size: larger;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+.navbar h4{
+    margin-left:-15%;
+}
+img{
+    margin-top: -104px;
+    margin-left: -13px;
+    height: 75px;
+    
+}
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.login{
+    float: right;
+    margin-left:100px;
+    margin-top:12px;
+}
+.navoption a{
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    margin-top: 13px;
+}
+
+
+.carousel .carousel-item {
+    height: 500px;
+    margin-left: 1px;
+}  
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+.breadcrumb{
+    margin-top: -24px;
+}
+ h5{
+color:black;
+text-indent: 15%;
+background-color: transparent;
+padding: 10px;
+margin-top: -50px;
+margin-left: 2%;
+margin-right: 2%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: justify;
+line-height: 40px;
+}
+.introtext{
+    margin-top: -6%;
+}
+footer a{
+    display: flex;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+.page-footer{
+    height: 8px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -5%;
+}

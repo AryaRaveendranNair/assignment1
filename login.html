@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./index.html">
     <link rel="stylesheet" href="./CSS/login.css">
     <link rel="stylesheet" href="./signup.html">
-
+    <link rel="stylesheet" href="./userprofile.html">
 </head>
 <body>
 
@@ -77,40 +77,50 @@
   </div>
       <!--dropdown ends--  -->
 <!-- login page starts -->
-      <div class="container">
-        <div class="form">
-          <div class="btn">
-            <button class="loginBtn">LOG IN</button>
-          </div>
-
-          <form class="login" action="" method="get">
-        
-            <div class="formGroup">
-              <input type="email" placeholder="Email ID" name="email" required autocomplete="off">
-            </div>
-            <div class="formGroup">
-              <input type="password" id="password" placeholder="Password" required autocomplete="off">
-             
-            </div>
-            <div class="checkBox">
-              <input type="checkbox" name="checkbox" id="checkbox">
-              <span class="text">Keep me signed in on this device</span>
-            </div>
-            <div class="formGroup">
-              <button type="button" class="btn2">REGISTER</button>
-            </div>
-            <br>
-            <div class="s">
-              <h6>Dont have an account?</h6>
-              <a href="./signup.html"> Sign Up Now!</a>
-            </div>
-     
-          </form>
-     
-        </div>
-      </div>
        
+        <div class="container">
+          
+        <div id="loginForm">
+          <center>
+              <form action="./userprofile.html" class="login">
+                
+                <div class="btn">
+                  <button class="loginBtn">LOG IN</button>
+                </div>
+                  
+                  <div class="login-content">
+                     
+                      <input type="text" id="email" placeholder="Email" ><br>
+                      <p id="mailError"></p>
+                     
+                  </div>
+                  <div class="login-content">
+                     
+                      <input type="password" id="password" placeholder ="Password" ><br>
+                      <p id="passwordError"></p>
+                  </div><br>
+                  <div class="checkBox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="text">Keep me signed in on this device</span>
+                  </div>
+                  <div class="login-content">
+                      <input id="btn2" type="submit" value="Log In"><br>
+                    </div>
+                    <span class="s">
+                      <h5>Dont have an account?<br><a href="./signup.html"> Sign Up Now!</a></h5>
+                    </span> 
+              
+                    
+                  
+                  
+              </form>
+          </center>
+      </div> 
       
+
+      <script src="./loginform.js"></script>
+
+
          </div>
       </div>
 

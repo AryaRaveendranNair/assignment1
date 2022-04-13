@@ -244,8 +244,10 @@ form i {
 }
 
 .signin-content1{
-  float: left;
+  
+  display: inline-block;
  width: 50%;
+ margin-left: -0.8%;
 }
 .signin-content2{
   display: inline-block;
@@ -253,7 +255,7 @@ form i {
 }
 .signin-content3{
   display: inline-block;
-  
+ 
   width: 50%;
 }
 .signin-content4{
